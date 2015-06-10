@@ -1,0 +1,91 @@
+/***************************************
+Body
+***************************************/
+
+body {
+  background-color: #63452D;
+
+}
+
+body {
+    font-family: 'Marcellus SC', sans-serif;
+}
+
+div {
+background: #F5F4AB
+}
+
+/****************************************
+Heading
+****************************************/
+
+header {
+    background: #F5F4AB;
+    text-align: center;
+}
+
+
+
+
+
+/***************************************
+Navigation
+***************************************/
+
+
+nav {
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    color: #426469
+}
+
+/****************************************
+Links
+****************************************/
+
+section ul li a {
+    color: #21180F
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
