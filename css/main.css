@@ -3,7 +3,7 @@ Body
 ***************************************/
 
 body {
-  background-color: #63452D;
+  background-color: #F5F0DF;
 
 }
 
@@ -12,7 +12,7 @@ body {
 }
 
 div {
-background: #F5F4AB
+background: #F5F0DF
 }
 
 /****************************************
@@ -20,7 +20,7 @@ Heading
 ****************************************/
 
 header {
-    background: #F5F4AB;
+    background: #F5F0DF;
     text-align: center;
 }
 
@@ -33,28 +33,36 @@ Navigation
 ***************************************/
 
 
-nav {
+nav a, a:link {
     text-align: center;
+    color: #21180F;
+    text-decoration: none
+        
 }
 
 nav li {
     display: inline-block;
+    padding: 0px 70px 0px 70px;
 }
 
-nav ul {
-    list-style: none;
+nav ul{
+    font-size: 25px;
+    color: #21180F;
 }
 
-nav a {
-    color: #426469
+nav a:hover {
+    color: #9DC7A3;
 }
+
+
+
 
 /****************************************
 Links
 ****************************************/
 
 section ul li a {
-    color: #21180F
+    color: #21180F  
 }
 
 
@@ -67,9 +75,14 @@ section ul li a {
 
 
 
+/*****************************************
+Footer
+*****************************************/
 
-
-
+footer {
+    color: #21180F;
+    text-align: center;
+}
 
 
 
