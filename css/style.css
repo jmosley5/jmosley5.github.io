@@ -35,27 +35,20 @@ About
 
 
 
+/****************************************
+Slideshow Images
+****************************************/
 
+li {
+    display: inline;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.slideshow {
+    height: 35%;
+    vertical-align: top;
+    margin: 10px 20px 15px 20px;
+    
+}
 
 
 
