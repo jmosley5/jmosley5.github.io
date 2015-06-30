@@ -27,7 +27,8 @@ About
 
 .about_image {
     text-align: center;   
-    border-radius: 100%
+    border-radius: 100%;
+    background: #F5F0DF;
 }
 
 
@@ -39,6 +40,22 @@ img.about_image {
     
 }
 
+section {
+    background: #F5F0DF;
+    
+}
+
+h3 {
+    font-size: 2em;
+    
+}
+
+.description {
+    font-size: 1.3em;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
 
 
 
@@ -58,12 +75,10 @@ ul img{
     background: #fff
 }
 
-
-div {
- background: #21180f;
-
-    
+.img_background {
+    background: #21180F;
 }
+
 
 #overlay {
     background: rgba(0,0,0,0.7);
@@ -77,13 +92,76 @@ div {
 }
 
 #overlay img {
-    height: 15%;
+    height: 70%%;
     margin-top: 10%;
+    box-shadow:0 0 50px #fff;
+    position: fixed;
+    margin-left: -300px;
 }
 
-#overlay p {
-color: white;
+
+/*******************************************
+Contact Page
+*******************************************/
+
+.contact {
+    font-size: 1.3em;
 }
+
+.phone a, 
+.mail a {
+    color: #21180F;
+    text-shadow: none;
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+
+i {
+    float: left;
+    margin-left: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
