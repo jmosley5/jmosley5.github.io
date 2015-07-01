@@ -26,18 +26,10 @@ About
 ***************************************/
 
 .about_image {
-    text-align: center;   
-    border-radius: 100%;
-    background: #F5F0DF;
-}
-
-
-img.about_image {
-    height: 23%;
-    padding: 0 0px 0 0px;
-    margin: 50px;
-    box-shadow: 3px 3px 10px 10px #B9C4BB;
-    
+    height: 400px;
+    float: right;
+    margin-top: 35px;
+    margin-bottom: 50px;
 }
 
 section {
@@ -68,7 +60,7 @@ li {
 }
 
 ul img{
-    height: 35%;
+    height: 100px;
     vertical-align: top;
     margin: 10px 20px 15px 20px;
     padding: 10px;
