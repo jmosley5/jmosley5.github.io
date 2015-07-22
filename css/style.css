@@ -32,6 +32,8 @@ About
     margin-bottom: 50px;
 }
 
+}
+
 section {
     background: #F5F0DF;
     
@@ -81,14 +83,24 @@ ul img{
     left: 0;
     display: none;
     text-align: center;
+    
 }
 
 #overlay img {
-    height: 70%%;
+    height: 55%;
     margin-top: 10%;
     box-shadow:0 0 50px #fff;
     position: fixed;
     margin-left: -300px;
+}
+
+#overlay p {
+    color: #fff;
+    margin-top: 500px;
+    position: fixed;
+    margin-left: 300px;
+    font-size: 2.3em;
+    
 }
 
 
@@ -100,7 +112,8 @@ Contact Page
     font-size: 1.3em;
 }
 
-.phone a, 
+.phone1 a, 
+.phone2 a,
 .mail a {
     color: #21180F;
     text-shadow: none;
@@ -110,12 +123,19 @@ Contact Page
     padding-left: 15px;
 }
 
+
+
 i {
     float: left;
     margin-left: 120px;
 }
 
+li.phone1, 
+li.phone2,
+li.mail {
+    display: block;
 
+}
 
 
 
