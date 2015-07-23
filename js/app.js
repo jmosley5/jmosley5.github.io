@@ -1,6 +1,6 @@
 var $overlay = $('<div id="overlay"></div>');
 var $image = $("<img>");
-var $caption = $("alt");
+var $caption = $("<p></p>");
 
 $overlay.append($image);
 
@@ -21,6 +21,8 @@ $("#slideshow a").click(function (event) {
     $overlay.show();
     
     var captionText = $(this).children("img").attr("alt");
+    console.log($caption);
+    console.log(captionText);
     $caption.text(captionText);
 });
 
