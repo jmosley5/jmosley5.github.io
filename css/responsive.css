@@ -1,10 +1,80 @@
-@media screen and (min-width: 480px) {
-
+@media only screen and (max-width: 480px) {
+    nav li {
+        background: none;
+        box-shadow: none;
+        display: block;
+        padding: 0;
+        margin: 4%;
+        background-color: #fff;
+        border-radius: 15%;
+        }
+    
+    
+    nav a, a:link {
+        text-shadow: none;
+        color: #21180F;
+    }
+    
+    
+    /******************************
+        Index
+    *******************************/
+    
+    .start_here {
+        display: none;
+    }
+    
+    .intro {
+        background: #fff;
+        margin-left: -40px;
+        padding: 10px 0px;
+        border-radius: 10%;
+        color: #21180F;
+    }
+    
+    .footer {
+        margin-top: 500px;
+        
+    }
+    
+ 
+    
+    
+    /******************************
+    About
+    ******************************/
+    
+    .about_image {
+        display: none;
+    }
     
     
     
+    /******************************
+    Slideshow
+    ******************************/
     
     
+    #overlay img {
+        display: none;
+    }
+    
+    #overlay {
+        background: none;
+    }
+    
+    #overlay p {
+        display: none;
+    }
+    
+    
+    
+    /*****************************
+    Contact
+    *****************************/
+    i {
+        margin: 0%;
+    }
     
     
     
@@ -12,11 +82,128 @@
 
 
 
-@media screen and (min-width: 660px) {
+@media only screen and (min-width: 480px),
+       only screen and (min-width: 660px) {
+    
+    nav li {
+        background: none;
+        box-shadow: none;
+        padding: 5px;
+        margin: 10px;
+    }
+    
+    nav a, a:link {
+        text-shadow: none;
+        color: #21180F;
+    }
+    
+    
+    /*******************************
+    About
+    *******************************/
 
+    .about_image {
+        height: 300px;
+    }
+    
+    /*******************************
+    Slideshow
+    *******************************/
 
+    #overlay img {
+        margin-left: -250px;
+    }
+    
+    #overlay p {
+        margin-top: 400px;
+        margin-left: 90px;
+    }  
+           
+    /*********************************
+        Index
+    *********************************/ 
+    
+    .start_here {
+        height: 300px;
+        border-radius: 1%;
+    }
+           
+    .footer {
+        margin-top: 200px;   
+    }       
+           
+    
+}
 
+@media only screen and (min-width: 660px) {
 
+    nav a, a:link {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 3px 3px #000;
+        
+}
 
+nav li {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow: 2px 3px 3px 3px #C4C1B9;
+    background: radial-gradient(#21180f, #63452D, #f5f0DF);
+}
 
+    
+    
+/**************************************
+    Slideshow
+**************************************/    
+    
+    #overlay p {
+        margin-top: 450px;
+        margin-left: 375px;
+    }
+  
+    
+/*************************************
+    Contact
+*************************************/    
+.phone1 a, 
+.phone2 a,
+.mail a {
+    color: #21180F;
+    text-shadow: none;
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+    
+    
+/************************************
+    Index
+*************************************/    
+    .start_here {
+    height: 500px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 15px 15px #888;
+    margin-top: 35px;
+}
+
+.intro { 
+    position: absolute; 
+    top: 200px; 
+    left: 10%; 
+    width: 100%; 
+    color: #FCF7EB;
+    font-size: 40px;
+    text-shadow: 3px 2px #818579;
+}
+
+    
+    
 }
